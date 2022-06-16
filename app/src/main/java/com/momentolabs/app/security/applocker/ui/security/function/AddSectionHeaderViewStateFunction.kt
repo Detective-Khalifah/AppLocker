@@ -10,12 +10,12 @@ class AddSectionHeaderViewStateFunction : Function<List<AppLockItemItemViewState
 
     private val recommendedPackages = HashSet<String>().apply {
         add("com.whatsapp")
-        add("com.instagram.android")
-        add("com.facebook.orca")
-        add("com.facebook.katana")
+//        add("com.instagram.android")
+//        add("com.facebook.orca")
+//        add("com.facebook.katana")
         add("com.google.android.apps.messaging")
         add("org.telegram.messenger")
-        add("com.twitter.android")
+//        add("com.twitter.android")
         add("com.google.android.apps.photos")
         add("com.google.android.apps.docs")
     }

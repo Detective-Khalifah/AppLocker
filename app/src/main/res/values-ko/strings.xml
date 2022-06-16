@@ -14,16 +14,6 @@
         <item>설정</item>
     </string-array>
 
-    <string-array name="call_blocker_tabs">
-        <item>블랙리스트</item>
-        <item>통화 기록</item>
-    </string-array>
-
-    <string-array name="vault_tabs">
-        <item>이미지</item>
-        <item>비디오</item>
-    </string-array>
-
     <string name="app_security_description">앱을 잠그는 것이 좋습니다</string>
 
     <string name="notification_protecting_title">앱 보호</string>
@@ -105,60 +95,14 @@
     </string>
     <string name="dialog_action_privacy_policy_accept">수락</string>
 
-    <string name="title_main_browser">브라우저</string>
     <string name="title_main_background">테마</string>
-    <string name="title_main_vault">둥근 천장</string>
-    <string name="title_main_call_blocker">차단제</string>
 
     <string name="backgrounds">배경</string>
 
-    
-    <string name="hint_browser_search">URL 검색 또는 입력</string>
-    <string name="facebook">페이스 북</string>
-    <string name="twitter">지저귀다</string>
-    <string name="instagram">인스 타 그램</string>
-    <string name="youtube">유튜브</string>
-    <string name="title_browser_empty">안전하고 안전합니다.</string>
-    <string name="subtitle_browser_empty">인터넷 서핑. 안전하게.</string>
-    <string name="bookmarks">북마크</string>
 
     <string name="under_development">개발중인. 곧 사용할 수 있습니다.</string>
 
 
-    
-    <string name="title_call_blocker">통화 차단</string>
-    <string name="title_name_unknown_number">알 수없는 번호</string>
-    <string name="call_blocker_fab_description">블록 번호</string>
-
-    <string name="blacklist_empty_title">블랙리스트가 비어 있습니다</string>
-    <string name="blacklist_empty_description">전화 번호를 차단하려면 클릭</string>
-
-    <string name="call_log_empty_title">로그 없음</string>
-    <string name="call_log_empty_description">통화가 차단되면 여기에 로그가 나타납니다</string>
-
-    <string name="dialog_add_to_blacklist_title">전화 번호 차단</string>
-    <string name="dialog_add_to_blacklist_name_hint">이름 (선택 사항)</string>
-    <string name="dialog_add_to_blacklist_phone_hint">전화 번호 입력</string>
-    <string name="dialog_add_to_blacklist_action_block">블록</string>
-    <string name="dialog_add_to_blacklist_action_cancel">취소</string>
-
-    <string name="dialog_black_list_delete_title">블랙리스트에서 삭제</string>
-    <string name="dialog_black_list_delete_description">블랙리스트에서 차단 된 번호를 제거 하시겠습니까?</string>
-    <string name="dialog_black_list_delete_action_delete">지우다</string>
-    <string name="dialog_black_list_delete_action_cancel">취소</string>
-
-    <string name="dialog_title_add_to_vault">가공</string>
-    <string name="dialog_description_process">미디어가 갤러리에서 제거되어 볼트에 추가되고 있습니다.</string>
-
-    <string name="dialog_title_removal_confirmation">제거 확인</string>
-    <string name="dialog_description_removal">이 파일은 볼트에서 제거되어 갤러리에 표시됩니다.</string>
-    <string name="dialog_action_removal_confirmation_accept">수락</string>
-
-    <string name="vault_photo_empty_page_title">사진 보관소가 비어 있습니다</string>
-    <string name="vault_photo_empty_page_description">갤러리에서 사진을 숨기려면 아이콘 추가</string>
-
-    <string name="vault_video_empty_page_title">비디오 금고가 비어 있습니다</string>
-    <string name="vault_video_empty_page_description">갤러리에서 비디오 사진에 아이콘 추가</string>
     <string name="settings_card_intruders_title">캐치 침입자</string>
     <string name="settings_enable_intruders_description">침입자를 잡을 수 있습니다.</string>
     <string name="settings_enable_intruders_title">침입자의 사진 찍기</string>

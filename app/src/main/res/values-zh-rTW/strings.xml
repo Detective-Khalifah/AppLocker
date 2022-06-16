@@ -14,16 +14,6 @@
         <item>設置</item>
     </string-array>
 
-    <string-array name="call_blocker_tabs">
-        <item>黑名單</item>
-        <item>通話記錄</item>
-    </string-array>
-
-    <string-array name="vault_tabs">
-        <item>圖片</item>
-        <item>影片</item>
-    </string-array>
-
     <string name="app_security_description">建議鎖定應用程序</string>
 
     <string name="notification_protecting_title">保護您的應用</string>
@@ -105,60 +95,14 @@
     </string>
     <string name="dialog_action_privacy_policy_accept">接受</string>
 
-    <string name="title_main_browser">瀏覽器</string>
     <string name="title_main_background">主題</string>
-    <string name="title_main_vault">拱頂</string>
-    <string name="title_main_call_blocker">攔截器</string>
 
     <string name="backgrounds">背景</string>
 
-    
-    <string name="hint_browser_search">搜索或輸入網址</string>
-    <string name="facebook">Facebook的</string>
-    <string name="twitter">推特</string>
-    <string name="instagram">Instagram的</string>
-    <string name="youtube">的Youtube</string>
-    <string name="title_browser_empty">Safe.Secure.Private。</string>
-    <string name="subtitle_browser_empty">在互聯網上沖浪。牢固。</string>
-    <string name="bookmarks">書籤</string>
 
     <string name="under_development">正在開發中。即將上市。</string>
 
 
-    
-    <string name="title_call_blocker">電話攔截</string>
-    <string name="title_name_unknown_number">未知電話</string>
-    <string name="call_blocker_fab_description">塊號</string>
-
-    <string name="blacklist_empty_title">黑名單是空的</string>
-    <string name="blacklist_empty_description">點擊以阻止電話號碼</string>
-
-    <string name="call_log_empty_title">沒有日誌</string>
-    <string name="call_log_empty_description">呼叫被阻止時，此處會顯示日誌</string>
-
-    <string name="dialog_add_to_blacklist_title">阻止電話號碼</string>
-    <string name="dialog_add_to_blacklist_name_hint">名稱（可選）</string>
-    <string name="dialog_add_to_blacklist_phone_hint">輸入電話號碼</string>
-    <string name="dialog_add_to_blacklist_action_block">塊</string>
-    <string name="dialog_add_to_blacklist_action_cancel">取消</string>
-
-    <string name="dialog_black_list_delete_title">從黑名單中刪除</string>
-    <string name="dialog_black_list_delete_description">要從黑名單中刪除被阻止的號碼嗎？</string>
-    <string name="dialog_black_list_delete_action_delete">刪除</string>
-    <string name="dialog_black_list_delete_action_cancel">取消</string>
-
-    <string name="dialog_title_add_to_vault">處理</string>
-    <string name="dialog_description_process">您的媒體正在從圖庫中刪除並添加到您的保管庫。</string>
-
-    <string name="dialog_title_removal_confirmation">刪除確認</string>
-    <string name="dialog_description_removal">此文件將從保管庫中刪除並顯示到圖庫中。</string>
-    <string name="dialog_action_removal_confirmation_accept">接受</string>
-
-    <string name="vault_photo_empty_page_title">Photo Vault是空的</string>
-    <string name="vault_photo_empty_page_description">添加圖標以隱藏圖庫中的照片</string>
-
-    <string name="vault_video_empty_page_title">視頻庫是空的</string>
-    <string name="vault_video_empty_page_description">從圖庫中添加圖標到視頻照片</string>
     <string name="settings_card_intruders_title">趕上入侵者</string>
     <string name="settings_enable_intruders_description">啟用以捕獲入侵者。</string>
     <string name="settings_enable_intruders_title">拍攝入侵者的照片</string>

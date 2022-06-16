@@ -19,7 +19,7 @@ import com.momentolabs.app.security.applocker.ui.intruders.camera.FrontPictureLi
 import com.momentolabs.app.security.applocker.ui.intruders.camera.FrontPictureState
 import com.momentolabs.app.security.applocker.ui.newpattern.SimplePatternListener
 import com.momentolabs.app.security.applocker.ui.overlay.analytics.OverlayAnalytics
-import com.momentolabs.app.security.applocker.ui.vault.analytics.VaultAdAnalytics
+//import com.momentolabs.app.security.applocker.ui.vault.analytics.VaultAdAnalytics
 import com.momentolabs.app.security.applocker.util.ads.AdTestDevices
 import com.momentolabs.app.security.applocker.util.extensions.convertToPatternDot
 import com.momentolabs.app.security.applocker.util.helper.file.FileManager
@@ -108,17 +108,17 @@ class OverlayValidationActivity : BaseActivity<OverlayValidationViewModel>() {
             adListener = object : AdListener() {
                 override fun onAdClicked() {
                     super.onAdClicked()
-                    VaultAdAnalytics.bannerAdClicked(this@OverlayValidationActivity)
+//                    VaultAdAnalytics.bannerAdClicked(this@OverlayValidationActivity)
                 }
 
                 override fun onAdFailedToLoad(p0: Int) {
                     super.onAdFailedToLoad(p0)
-                    VaultAdAnalytics.bannerAdFailed(this@OverlayValidationActivity)
+//                    VaultAdAnalytics.bannerAdFailed(this@OverlayValidationActivity)
                 }
 
                 override fun onAdLoaded() {
                     super.onAdLoaded()
-                    VaultAdAnalytics.bannerAdLoaded(this@OverlayValidationActivity)
+//                    VaultAdAnalytics.bannerAdLoaded(this@OverlayValidationActivity)
                 }
             }
         }

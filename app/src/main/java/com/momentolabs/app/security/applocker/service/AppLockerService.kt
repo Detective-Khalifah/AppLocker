@@ -29,7 +29,7 @@ import io.reactivex.Flowable
 import io.reactivex.subjects.PublishSubject
 import android.content.IntentFilter
 import android.util.Log
-import com.bugsnag.android.Bugsnag
+//import com.bugsnag.android.Bugsnag
 import com.momentolabs.app.security.applocker.data.SystemPackages
 import com.momentolabs.app.security.applocker.ui.permissions.PermissionChecker
 import io.reactivex.disposables.Disposable
@@ -164,7 +164,7 @@ class AppLockerService : DaggerService() {
                     lockedAppList.forEach { lockedAppPackageSet.add(it.parsePackageName()) }
                     SystemPackages.getSystemPackages().forEach { lockedAppPackageSet.add(it) }
                 },
-                { error -> Bugsnag.notify(error) })
+                { /* error -> Bugsnag.notify(error) */ })
     }
 
     private fun observeOverlayView() {
@@ -198,7 +198,7 @@ class AppLockerService : DaggerService() {
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(
                 { foregroundAppPackage -> onAppForeground(foregroundAppPackage) },
-                { error -> Bugsnag.notify(error) })
+                { /* error -> Bugsnag.notify(error) */ })
         allDisposables.add(foregroundAppDisposable!!)
     }
 

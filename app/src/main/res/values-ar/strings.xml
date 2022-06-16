@@ -14,16 +14,6 @@
         <item>الإعدادات</item>
     </string-array>
 
-    <string-array name="call_blocker_tabs">
-        <item>القائمة السوداء</item>
-        <item>سجلات المكالمات</item>
-    </string-array>
-
-    <string-array name="vault_tabs">
-        <item>صور</item>
-        <item>أشرطة فيديو</item>
-    </string-array>
-
     <string name="app_security_description">أوصت لقفل التطبيق</string>
 
     <string name="notification_protecting_title">حماية التطبيقات الخاصة بك</string>
@@ -105,60 +95,14 @@
     </string>
     <string name="dialog_action_privacy_policy_accept">قبول</string>
 
-    <string name="title_main_browser">المتصفح</string>
     <string name="title_main_background">موضوع</string>
-    <string name="title_main_vault">قبو</string>
-    <string name="title_main_call_blocker">مانع</string>
 
     <string name="backgrounds">خلفيات</string>
 
-    
-    <string name="hint_browser_search">بحث أو أدخل URL</string>
-    <string name="facebook">فيس بوك</string>
-    <string name="twitter">تغريد</string>
-    <string name="instagram">إينستاجرام</string>
-    <string name="youtube">موقع YouTube</string>
-    <string name="title_browser_empty">Safe.Secure.Private.</string>
-    <string name="subtitle_browser_empty">تصفح الانترنت. بشكل آمن.</string>
-    <string name="bookmarks">إرسال</string>
 
     <string name="under_development">تحت التطوير. سيتوفر قريبا.</string>
 
 
-    
-    <string name="title_call_blocker">دعوة مانع</string>
-    <string name="title_name_unknown_number">رقم مجهول</string>
-    <string name="call_blocker_fab_description">حجب الرقم</string>
-
-    <string name="blacklist_empty_title">القائمة السوداء فارغة</string>
-    <string name="blacklist_empty_description">انقر لحجب رقم الهاتف</string>
-
-    <string name="call_log_empty_title">لا سجلات</string>
-    <string name="call_log_empty_description">يظهر السجل هنا عندما يتم حظر الاتصال</string>
-
-    <string name="dialog_add_to_blacklist_title">حظر رقم الهاتف</string>
-    <string name="dialog_add_to_blacklist_name_hint">الاسم: (اختياري)</string>
-    <string name="dialog_add_to_blacklist_phone_hint">أدخل رقم الهاتف</string>
-    <string name="dialog_add_to_blacklist_action_block">منع</string>
-    <string name="dialog_add_to_blacklist_action_cancel">إلغاء</string>
-
-    <string name="dialog_black_list_delete_title">حذف من القائمة السوداء</string>
-    <string name="dialog_black_list_delete_description">هل تريد إزالة الرقم المحظور من القائمة السوداء؟</string>
-    <string name="dialog_black_list_delete_action_delete">حذف</string>
-    <string name="dialog_black_list_delete_action_cancel">إلغاء</string>
-
-    <string name="dialog_title_add_to_vault">معالجة</string>
-    <string name="dialog_description_process">تتم إزالة الوسائط من المعرض وإضافة إلى قبوتك.</string>
-
-    <string name="dialog_title_removal_confirmation">تأكيد إزالة</string>
-    <string name="dialog_description_removal">هذا الملف سوف يزيل من قبو ويعرض في المعرض.</string>
-    <string name="dialog_action_removal_confirmation_accept">قبول</string>
-
-    <string name="vault_photo_empty_page_title">Photo Vault فارغ</string>
-    <string name="vault_photo_empty_page_description">أضف أيقونة لإخفاء الصور من المعرض</string>
-
-    <string name="vault_video_empty_page_title">قبو الفيديو فارغ</string>
-    <string name="vault_video_empty_page_description">إضافة أيقونة لصور الفيديو من المعرض</string>
     <string name="settings_card_intruders_title">قبض المتسللين</string>
     <string name="settings_enable_intruders_description">تمكين للقبض على المتسللين.</string>
     <string name="settings_enable_intruders_title">التقاط صورة الدخلاء</string>

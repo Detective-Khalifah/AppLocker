@@ -14,16 +14,6 @@
         <item>Configuraciones</item>
     </string-array>
 
-    <string-array name="call_blocker_tabs">
-        <item>Lista negra</item>
-        <item>Registros de llamadas</item>
-    </string-array>
-
-    <string-array name="vault_tabs">
-        <item>Imágenes</item>
-        <item>Videos</item>
-    </string-array>
-
     <string name="app_security_description">Recomendado para bloquear la aplicación</string>
 
     <string name="notification_protecting_title">Protegiendo tus aplicaciones</string>
@@ -105,60 +95,14 @@
     </string>
     <string name="dialog_action_privacy_policy_accept">Aceptar</string>
 
-    <string name="title_main_browser">Navegador</string>
     <string name="title_main_background">Tema</string>
-    <string name="title_main_vault">Bóveda</string>
-    <string name="title_main_call_blocker">Bloqueador</string>
 
     <string name="backgrounds">Antecedentes</string>
 
-    
-    <string name="hint_browser_search">Buscar o ingresar URL</string>
-    <string name="facebook">Facebook</string>
-    <string name="twitter">Gorjeo</string>
-    <string name="instagram">Instagram</string>
-    <string name="youtube">Youtube</string>
-    <string name="title_browser_empty">Seguro, seguro, privado.</string>
-    <string name="subtitle_browser_empty">Navega en la Internet. De forma segura</string>
-    <string name="bookmarks">Marcadores</string>
 
     <string name="under_development">En desarrollo. Disponible próximamente.</string>
 
 
-    
-    <string name="title_call_blocker">Bloqueador de llamadas</string>
-    <string name="title_name_unknown_number">Numero desconocido</string>
-    <string name="call_blocker_fab_description">Número de bloque</string>
-
-    <string name="blacklist_empty_title">La lista negra está vacía.</string>
-    <string name="blacklist_empty_description">Haz clic para bloquear el número de teléfono.</string>
-
-    <string name="call_log_empty_title">Sin registros</string>
-    <string name="call_log_empty_description">El registro aparece aquí cuando la llamada está bloqueada</string>
-
-    <string name="dialog_add_to_blacklist_title">Bloquear número de teléfono</string>
-    <string name="dialog_add_to_blacklist_name_hint">Nombre: (Opcional)</string>
-    <string name="dialog_add_to_blacklist_phone_hint">Ingresa número telefónico</string>
-    <string name="dialog_add_to_blacklist_action_block">Bloquear</string>
-    <string name="dialog_add_to_blacklist_action_cancel">Cancelar</string>
-
-    <string name="dialog_black_list_delete_title">Eliminar de la lista negra</string>
-    <string name="dialog_black_list_delete_description">¿Desea eliminar el número bloqueado de la lista negra?</string>
-    <string name="dialog_black_list_delete_action_delete">Borrar</string>
-    <string name="dialog_black_list_delete_action_cancel">Cancelar</string>
-
-    <string name="dialog_title_add_to_vault">Tratamiento</string>
-    <string name="dialog_description_process">Su contenido multimedia se elimina de la galería y se agrega a su bóveda.</string>
-
-    <string name="dialog_title_removal_confirmation">Confirmación de eliminación</string>
-    <string name="dialog_description_removal">Este archivo se eliminará de la bóveda y se mostrará en la galería.</string>
-    <string name="dialog_action_removal_confirmation_accept">Aceptar</string>
-
-    <string name="vault_photo_empty_page_title">Photo Vault está vacío</string>
-    <string name="vault_photo_empty_page_description">Agregar icono para ocultar fotos de la galería</string>
-
-    <string name="vault_video_empty_page_title">Video Vault está vacío</string>
-    <string name="vault_video_empty_page_description">Agregar ícono a las fotos de video de la galería</string>
     <string name="settings_card_intruders_title">Atrapar intrusos</string>
     <string name="settings_enable_intruders_description">Habilitar para atrapar intrusos.</string>
     <string name="settings_enable_intruders_title">Tomar foto de intrusos</string>

@@ -14,16 +14,6 @@
         <item>die Einstellungen</item>
     </string-array>
 
-    <string-array name="call_blocker_tabs">
-        <item>Schwarze Liste</item>
-        <item>Anruflisten</item>
-    </string-array>
-
-    <string-array name="vault_tabs">
-        <item>Bilder</item>
-        <item>Videos</item>
-    </string-array>
-
     <string name="app_security_description">Empfohlen, App zu sperren</string>
 
     <string name="notification_protecting_title">Schützen Sie Ihre Apps</string>
@@ -105,60 +95,14 @@
     </string>
     <string name="dialog_action_privacy_policy_accept">Akzeptieren</string>
 
-    <string name="title_main_browser">Browser</string>
     <string name="title_main_background">Thema</string>
-    <string name="title_main_vault">Gewölbe</string>
-    <string name="title_main_call_blocker">Blocker</string>
 
     <string name="backgrounds">Hintergründe</string>
 
-    
-    <string name="hint_browser_search">Suchen oder URL eingeben</string>
-    <string name="facebook">Facebook</string>
-    <string name="twitter">Twitter</string>
-    <string name="instagram">Instagram</string>
-    <string name="youtube">Youtube</string>
-    <string name="title_browser_empty">Safe.Secure.Private.</string>
-    <string name="subtitle_browser_empty">Im Internet surfen. Sicher.</string>
-    <string name="bookmarks">Lesezeichen</string>
 
     <string name="under_development">In Entwicklung. Wird bald verfügbar sein.</string>
 
 
-    
-    <string name="title_call_blocker">Anrufsperre</string>
-    <string name="title_name_unknown_number">Unbekannte Nummer</string>
-    <string name="call_blocker_fab_description">Blocknummer</string>
-
-    <string name="blacklist_empty_title">Die schwarze Liste ist leer</string>
-    <string name="blacklist_empty_description">Klicken Sie hier, um die Telefonnummer zu blockieren</string>
-
-    <string name="call_log_empty_title">Keine Protokolle</string>
-    <string name="call_log_empty_description">Das Protokoll wird hier angezeigt, wenn der Anruf gesperrt ist</string>
-
-    <string name="dialog_add_to_blacklist_title">Telefonnummer sperren</string>
-    <string name="dialog_add_to_blacklist_name_hint">Name: (Optional)</string>
-    <string name="dialog_add_to_blacklist_phone_hint">Telefonnummer eingeben</string>
-    <string name="dialog_add_to_blacklist_action_block">Block</string>
-    <string name="dialog_add_to_blacklist_action_cancel">Stornieren</string>
-
-    <string name="dialog_black_list_delete_title">Von der schwarzen Liste löschen</string>
-    <string name="dialog_black_list_delete_description">Möchten Sie die gesperrte Nummer von der schwarzen Liste entfernen?</string>
-    <string name="dialog_black_list_delete_action_delete">Löschen</string>
-    <string name="dialog_black_list_delete_action_cancel">Stornieren</string>
-
-    <string name="dialog_title_add_to_vault">wird bearbeitet</string>
-    <string name="dialog_description_process">Ihre Medien werden aus der Galerie entfernt und Ihrem Tresor hinzugefügt.</string>
-
-    <string name="dialog_title_removal_confirmation">Entfernungsbestätigung</string>
-    <string name="dialog_description_removal">Diese Datei wird aus dem Tresor entfernt und in der Galerie angezeigt.</string>
-    <string name="dialog_action_removal_confirmation_accept">Akzeptieren</string>
-
-    <string name="vault_photo_empty_page_title">Photo Vault ist leer</string>
-    <string name="vault_photo_empty_page_description">Symbol hinzufügen, um Fotos aus der Galerie auszublenden</string>
-
-    <string name="vault_video_empty_page_title">Video Vault ist leer</string>
-    <string name="vault_video_empty_page_description">Hinzufügen eines Symbols zu Videofotos aus der Galerie</string>
     <string name="settings_card_intruders_title">Fange Eindringlinge</string>
     <string name="settings_enable_intruders_description">Aktivieren Sie, um Eindringlinge zu fangen.</string>
     <string name="settings_enable_intruders_title">Machen Sie ein Foto von Eindringlingen</string>

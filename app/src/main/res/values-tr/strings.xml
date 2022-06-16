@@ -14,16 +14,6 @@
         <item>Ayarlar</item>
     </string-array>
 
-    <string-array name="call_blocker_tabs">
-        <item>Kara liste</item>
-        <item>Arama kayıtları</item>
-    </string-array>
-
-    <string-array name="vault_tabs">
-        <item>Resimler</item>
-        <item>Videolar</item>
-    </string-array>
-
     <string name="app_security_description">Uygulamayı kilitlemek için önerilir</string>
 
     <string name="notification_protecting_title">Uygulamalarınızı koruma</string>
@@ -105,58 +95,13 @@
     </string>
     <string name="dialog_action_privacy_policy_accept">Kabul et</string>
 
-    <string name="title_main_browser">Tarayıcı</string>
     <string name="title_main_background">Tema</string>
-    <string name="title_main_vault">Depo</string>
-    <string name="title_main_call_blocker">Engelleyici</string>
 
     <string name="backgrounds">Arkaplan</string>
-
-    <string name="hint_browser_search">URL’yi arayın veya girin</string>
-    <string name="facebook">Facebook</string>
-    <string name="twitter">heyecan</string>
-    <string name="instagram">Instagram</string>
-    <string name="youtube">Youtube</string>
-    <string name="title_browser_empty">Safe.Secure.Private.</string>
-    <string name="subtitle_browser_empty">İnternette sörf yapın. Güvenli.</string>
-    <string name="bookmarks">Yer imleri</string>
 
     <string name="under_development">Geliştiriliyor. Yakında hazır olacak.</string>
 
 
-    <string name="title_call_blocker">Arama engelleyici</string>
-    <string name="title_name_unknown_number">Bilinmeyen numara</string>
-    <string name="call_blocker_fab_description">Blok numarası</string>
-
-    <string name="blacklist_empty_title">Kara liste boş</string>
-    <string name="blacklist_empty_description">Telefon numarasını engellemek için tıklayın</string>
-
-    <string name="call_log_empty_title">Kayıt Yok</string>
-    <string name="call_log_empty_description">Çağrı engellendiğinde kayıt burada görünür.</string>
-
-    <string name="dialog_add_to_blacklist_title">Telefon numarasını engelle</string>
-    <string name="dialog_add_to_blacklist_name_hint">İsim: (İsteğe bağlı)</string>
-    <string name="dialog_add_to_blacklist_phone_hint">Telefon numarasını giriniz</string>
-    <string name="dialog_add_to_blacklist_action_block">Blok</string>
-    <string name="dialog_add_to_blacklist_action_cancel">İptal etmek</string>
-
-    <string name="dialog_black_list_delete_title">Kara listeden sil</string>
-    <string name="dialog_black_list_delete_description">Engellenen numarayı kara listeden kaldırmak istiyor musunuz?</string>
-    <string name="dialog_black_list_delete_action_delete">Sil</string>
-    <string name="dialog_black_list_delete_action_cancel">İptal Et</string>
-
-    <string name="dialog_title_add_to_vault">İşleme</string>
-    <string name="dialog_description_process">Medyanız galeriden kaldırılıyor ve kasanıza ekleniyor.</string>
-
-    <string name="dialog_title_removal_confirmation">Kaldırma Onayı</string>
-    <string name="dialog_description_removal">Bu dosya kasadan kaldırılacak ve galeride gösterilecektir.</string>
-    <string name="dialog_action_removal_confirmation_accept">Kabul etmek</string>
-
-    <string name="vault_photo_empty_page_title">Fotoğraf Kasası boş</string>
-    <string name="vault_photo_empty_page_description">Fotoğrafları galeriden gizlemek için simge ekle</string>
-
-    <string name="vault_video_empty_page_title">Video Kasası boş</string>
-    <string name="vault_video_empty_page_description">Galerideki video fotoğraflarına simge ekle</string>
     <string name="settings_card_intruders_title">Davetsiz misafirleri yakala</string>
     <string name="settings_enable_intruders_description">Davetsiz misafirleri yakalamak için etkinleştirin.</string>
     <string name="settings_enable_intruders_title">Davetsiz misafirlerin fotoğrafını çekin</string>

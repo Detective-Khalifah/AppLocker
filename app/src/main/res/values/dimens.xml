@@ -37,9 +37,4 @@
     <dimen name="main_actions_size">108dp</dimen>
     <dimen name="security_recyclerview_padding_top">116dp</dimen>
 
-    <dimen name="browser_quick_item_size">40dp</dimen>
-    <dimen name="bookmark_item_image_size">72dp</dimen>
-
-    <dimen name="size_item_call_blocker_avatar">56dp</dimen>
-
 </resources>

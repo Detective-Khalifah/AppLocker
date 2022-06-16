@@ -10,13 +10,9 @@ import com.momentolabs.app.security.applocker.R
 import com.momentolabs.app.security.applocker.databinding.FragmentSecurityBinding
 import com.momentolabs.app.security.applocker.ui.BaseFragment
 import com.momentolabs.app.security.applocker.ui.background.BackgroundsActivity
-import com.momentolabs.app.security.applocker.ui.browser.BrowserActivity
-import com.momentolabs.app.security.applocker.ui.callblocker.CallBlockerActivity
 import com.momentolabs.app.security.applocker.ui.permissiondialog.UsageAccessPermissionDialog
 import com.momentolabs.app.security.applocker.ui.permissions.PermissionChecker
 import com.momentolabs.app.security.applocker.ui.security.analytics.SecurityFragmentAnalytics
-import com.momentolabs.app.security.applocker.ui.vault.VaultActivity
-import com.momentolabs.app.security.applocker.ui.vault.analytics.VaultAdAnalytics
 import com.momentolabs.app.security.applocker.util.ads.AdTestDevices
 import com.momentolabs.app.security.applocker.util.delegate.inflate
 
@@ -41,31 +37,10 @@ class SecurityFragment : BaseFragment<SecurityViewModel>() {
                 resources.getDimension(R.dimen.main_actions_size) + resources.getDimension(R.dimen.margin_16dp)
             )
         )
-
-        binding.layoutMainActions.layoutCallBlocker.setOnClickListener {
-            activity?.let {
-                startActivity(CallBlockerActivity.newIntent(it))
-                SecurityFragmentAnalytics.onCallBlockerClicked(it)
-            }
-        }
         binding.layoutMainActions.layoutTheme.setOnClickListener {
             activity?.let {
                 startActivity(BackgroundsActivity.newIntent(it))
                 SecurityFragmentAnalytics.onBackgroundClicked(it)
-            }
-        }
-
-        binding.layoutMainActions.layoutBrowser.setOnClickListener {
-            activity?.let {
-                startActivity(BrowserActivity.newIntent(it))
-                SecurityFragmentAnalytics.onBrowserClicked(it)
-            }
-        }
-
-        binding.layoutMainActions.layoutVault.setOnClickListener {
-            activity?.let {
-                startActivity(VaultActivity.newIntent(it))
-                SecurityFragmentAnalytics.onVaultClicked(it)
             }
         }
         return binding.root
@@ -109,17 +84,17 @@ class SecurityFragment : BaseFragment<SecurityViewModel>() {
                 adListener = object : AdListener() {
                     override fun onAdClicked() {
                         super.onAdClicked()
-                        VaultAdAnalytics.bannerAdClicked(it)
+//                        VaultAdAnalytics.bannerAdClicked(it)
                     }
 
                     override fun onAdFailedToLoad(p0: Int) {
                         super.onAdFailedToLoad(p0)
-                        VaultAdAnalytics.bannerAdFailed(it)
+//                        VaultAdAnalytics.bannerAdFailed(it)
                     }
 
                     override fun onAdLoaded() {
                         super.onAdLoaded()
-                        VaultAdAnalytics.bannerAdLoaded(it)
+//                        VaultAdAnalytics.bannerAdLoaded(it)
                     }
                 }
             }

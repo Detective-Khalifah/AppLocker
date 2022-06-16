@@ -14,16 +14,6 @@
         <item>सेटिंग्स</item>
     </string-array>
 
-    <string-array name="call_blocker_tabs">
-        <item>काला सूची में डालना</item>
-        <item>कॉल लॉग</item>
-    </string-array>
-
-    <string-array name="vault_tabs">
-        <item>इमेजिस</item>
-        <item>वीडियो</item>
-    </string-array>
-
     <string name="app_security_description">ऐप को लॉक करने की सलाह दी</string>
 
     <string name="notification_protecting_title">अपने ऐप्स की सुरक्षा करना</string>
@@ -105,60 +95,14 @@
     </string>
     <string name="dialog_action_privacy_policy_accept">स्वीकार करना</string>
 
-    <string name="title_main_browser">ब्राउज़र</string>
     <string name="title_main_background">विषय</string>
-    <string name="title_main_vault">मेहराब</string>
-    <string name="title_main_call_blocker">अवरोधक</string>
 
     <string name="backgrounds">पृष्ठभूमि</string>
 
-    
-    <string name="hint_browser_search">URL खोजें या दर्ज करें</string>
-    <string name="facebook">फेसबुक</string>
-    <string name="twitter">ट्विटर</string>
-    <string name="instagram">इंस्टाग्राम</string>
-    <string name="youtube">यूट्यूब</string>
-    <string name="title_browser_empty">Safe.Secure.Private।</string>
-    <string name="subtitle_browser_empty">इंटरनेट पर सर्फ़ करें। सुरक्षित रूप से।</string>
-    <string name="bookmarks">बुकमार्क</string>
 
     <string name="under_development">विकास जारी है। जल्द ही उपलब्ध होगा।</string>
 
 
-    
-    <string name="title_call_blocker">कॉल ब्लॉकर</string>
-    <string name="title_name_unknown_number">अज्ञात संख्या</string>
-    <string name="call_blocker_fab_description">ब्लॉक संख्या</string>
-
-    <string name="blacklist_empty_title">ब्लैकलिस्ट खाली है</string>
-    <string name="blacklist_empty_description">फोन नंबर ब्लॉक करने के लिए क्लिक करें</string>
-
-    <string name="call_log_empty_title">कोई लॉग नहीं</string>
-    <string name="call_log_empty_description">कॉल ब्लॉक होने पर लॉग यहां दिखाई देता है</string>
-
-    <string name="dialog_add_to_blacklist_title">फोन नंबर ब्लॉक करें</string>
-    <string name="dialog_add_to_blacklist_name_hint">नाम: (वैकल्पिक)</string>
-    <string name="dialog_add_to_blacklist_phone_hint">फोन नंबर दर्ज</string>
-    <string name="dialog_add_to_blacklist_action_block">खंड</string>
-    <string name="dialog_add_to_blacklist_action_cancel">रद्द करना</string>
-
-    <string name="dialog_black_list_delete_title">काली सूची से हटाएं</string>
-    <string name="dialog_black_list_delete_description">क्या आप अवरुद्ध सूची को काली सूची से हटाना चाहते हैं?</string>
-    <string name="dialog_black_list_delete_action_delete">हटाना</string>
-    <string name="dialog_black_list_delete_action_cancel">रद्द करना</string>
-
-    <string name="dialog_title_add_to_vault">प्रसंस्करण</string>
-    <string name="dialog_description_process">आपका मीडिया गैलरी से निकाल रहा है और आपकी तिजोरी में जोड़ रहा है।</string>
-
-    <string name="dialog_title_removal_confirmation">हटाने की पुष्टि</string>
-    <string name="dialog_description_removal">यह फ़ाइल वॉल्ट से हटाकर गैलरी में दिखाई देगी।</string>
-    <string name="dialog_action_removal_confirmation_accept">स्वीकार करना</string>
-
-    <string name="vault_photo_empty_page_title">फोटो वॉल्ट खाली है</string>
-    <string name="vault_photo_empty_page_description">गैलरी से फ़ोटो छिपाने के लिए आइकन जोड़ें</string>
-
-    <string name="vault_video_empty_page_title">वीडियो वॉल्ट खाली है</string>
-    <string name="vault_video_empty_page_description">गैलरी से वीडियो तस्वीरों के लिए आइकन जोड़ें</string>
     <string name="settings_card_intruders_title">घुसपैठियों को पकड़ें</string>
     <string name="settings_enable_intruders_description">घुसपैठियों को पकड़ने में सक्षम करें।</string>
     <string name="settings_enable_intruders_title">घुसपैठियों की तस्वीर लें</string>

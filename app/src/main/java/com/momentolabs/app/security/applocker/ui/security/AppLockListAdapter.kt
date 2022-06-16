@@ -8,7 +8,7 @@ import com.momentolabs.app.security.applocker.ui.security.viewholder.HeaderViewH
 import java.lang.IllegalArgumentException
 import java.lang.IllegalStateException
 import androidx.recyclerview.widget.DiffUtil
-import com.bugsnag.android.Bugsnag
+//import com.bugsnag.android.Bugsnag
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.functions.Consumer
@@ -36,7 +36,7 @@ class AppLockListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
                     it.dispatchUpdatesTo(this)
                 },
                 { error ->
-                    Bugsnag.notify(error)
+//                    Bugsnag.notify(error)
                     this.itemViewStateList.clear()
                     this.itemViewStateList.addAll(itemViewStateList)
                     notifyDataSetChanged()

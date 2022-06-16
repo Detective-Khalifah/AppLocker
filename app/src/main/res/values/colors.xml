@@ -18,8 +18,5 @@
     <color name="colorDialogTitle">#212121</color>
     <color name="colorDialogSubTitle">#212121</color>
 
-    <color name="color_bookmark">#4285F4</color>
-    <color name="color_vault">#7858FA</color>
-    <color name="color_blocker">#FF5557</color>
     <color name="color_background">#FCC406</color>
 </resources>

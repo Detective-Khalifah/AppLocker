@@ -14,16 +14,6 @@
         <item>設定</item>
     </string-array>
 
-    <string-array name="call_blocker_tabs">
-        <item>ブラックリスト</item>
-        <item>コールログ</item>
-    </string-array>
-
-    <string-array name="vault_tabs">
-        <item>画像</item>
-        <item>動画</item>
-    </string-array>
-
     <string name="app_security_description">アプリをロックすることをお勧めします</string>
 
     <string name="notification_protecting_title">アプリを保護する</string>
@@ -105,60 +95,14 @@
     </string>
     <string name="dialog_action_privacy_policy_accept">受け入れる</string>
 
-    <string name="title_main_browser">ブラウザ</string>
     <string name="title_main_background">テーマ</string>
-    <string name="title_main_vault">金庫</string>
-    <string name="title_main_call_blocker">ブロッカー</string>
 
     <string name="backgrounds">背景</string>
 
-    
-    <string name="hint_browser_search">検索またはURLを入力</string>
-    <string name="facebook">フェイスブック</string>
-    <string name="twitter">Twitter</string>
-    <string name="instagram">インスタグラム</string>
-    <string name="youtube">Youtube</string>
-    <string name="title_browser_empty">Safe.Secure.Private。</string>
-    <string name="subtitle_browser_empty">インターネットでサーフィン。安全に。</string>
-    <string name="bookmarks">しおり</string>
 
     <string name="under_development">開発中で。間もなく利用可能になります。</string>
 
 
-    
-    <string name="title_call_blocker">呼び出しブロッカー</string>
-    <string name="title_name_unknown_number">未知数</string>
-    <string name="call_blocker_fab_description">ブロック番号</string>
-
-    <string name="blacklist_empty_title">ブラックリストは空です</string>
-    <string name="blacklist_empty_description">クリックして電話番号をブロック</string>
-
-    <string name="call_log_empty_title">ログなし</string>
-    <string name="call_log_empty_description">通話がブロックされるとログがここに表示されます</string>
-
-    <string name="dialog_add_to_blacklist_title">電話番号をブロック</string>
-    <string name="dialog_add_to_blacklist_name_hint">名前（オプション）</string>
-    <string name="dialog_add_to_blacklist_phone_hint">電話番号を入力してください</string>
-    <string name="dialog_add_to_blacklist_action_block">ブロック</string>
-    <string name="dialog_add_to_blacklist_action_cancel">キャンセル</string>
-
-    <string name="dialog_black_list_delete_title">ブラックリストから削除</string>
-    <string name="dialog_black_list_delete_description">ブロックされた番号をブラックリストから削除しますか？</string>
-    <string name="dialog_black_list_delete_action_delete">削除する</string>
-    <string name="dialog_black_list_delete_action_cancel">キャンセル</string>
-
-    <string name="dialog_title_add_to_vault">処理</string>
-    <string name="dialog_description_process">メディアがギャラリーから削除され、ボールトに追加されています。</string>
-
-    <string name="dialog_title_removal_confirmation">取り外し確認</string>
-    <string name="dialog_description_removal">このファイルはボールトから削除され、ギャラリーに表示されます。</string>
-    <string name="dialog_action_removal_confirmation_accept">受け入れる</string>
-
-    <string name="vault_photo_empty_page_title">Photo Vaultは空です</string>
-    <string name="vault_photo_empty_page_description">ギャラリーから写真を非表示にするアイコンを追加します</string>
-
-    <string name="vault_video_empty_page_title">Video Vaultが空です</string>
-    <string name="vault_video_empty_page_description">ギャラリーのビデオ写真にアイコンを追加します</string>
     <string name="settings_card_intruders_title">侵入者を捕まえる</string>
     <string name="settings_enable_intruders_description">侵入者を捕まえることができます。</string>
     <string name="settings_enable_intruders_title">侵入者の写真を撮る</string>

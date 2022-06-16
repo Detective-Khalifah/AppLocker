@@ -18,8 +18,6 @@ import com.momentolabs.app.security.applocker.ui.newpattern.CreateNewPatternActi
 import com.momentolabs.app.security.applocker.ui.permissiondialog.UsageAccessPermissionDialog
 import com.momentolabs.app.security.applocker.ui.permissions.PermissionChecker
 import com.momentolabs.app.security.applocker.ui.settings.analytics.SettingsAnalytics
-import com.momentolabs.app.security.applocker.ui.vault.VaultActivity
-import com.momentolabs.app.security.applocker.ui.vault.intent.VaultSelectorIntentHelper
 import com.momentolabs.app.security.applocker.util.delegate.inflate
 import com.momentolabs.app.security.applocker.util.extensions.toast
 import com.tbruyelle.rxpermissions2.RxPermissions
