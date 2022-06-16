@@ -7,8 +7,10 @@
     <!-- AD unit ids-->
     <string name="mobile_ad_id" translatable="false">ca-app-pub-7878654882882088~4416828367</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-7878654882882088/5538338345</string>
-    <string name="overlay_banner_ad_unit_id" translatable="false">ca-app-pub-7878654882882088/8597237218</string>
-    <string name="dashboard_banner_ad_unit_id" translatable="false">ca-app-pub-7878654882882088/9894092735</string>
+
+    <!-- TODO: Consider ADD/DEL-->
+<!--    <string name="overlay_banner_ad_unit_id" translatable="false">ca-app-pub-7878654882882088/8597237218</string>-->
+<!--    <string name="dashboard_banner_ad_unit_id" translatable="false">ca-app-pub-7878654882882088/9894092735</string>-->
 
 
     <string name="share">Share</string>
@@ -132,7 +134,7 @@
 
     <!-- Intruders Photo Activity -->
     <string name="title_intruders_photos">Intruders Photos</string>
-    <string name="empty_page_intruders_title">No Intruders Catched</string>
+    <string name="empty_page_intruders_title">No Intruders Caught</string>
     <string name="empty_page_intruders_description">Your phone is secure!</string>
 
 </resources>

@@ -11,16 +11,11 @@ import androidx.lifecycle.Observer
 import com.andrognito.patternlockview.PatternLockView
 import com.daimajia.androidanimations.library.Techniques
 import com.daimajia.androidanimations.library.YoYo
-import com.google.android.gms.ads.*
 import com.momentolabs.app.security.applocker.R
 import com.momentolabs.app.security.applocker.databinding.ActivityOverlayValidationBinding
 import com.momentolabs.app.security.applocker.ui.BaseActivity
 import com.momentolabs.app.security.applocker.ui.intruders.camera.FrontPictureLiveData
-import com.momentolabs.app.security.applocker.ui.intruders.camera.FrontPictureState
 import com.momentolabs.app.security.applocker.ui.newpattern.SimplePatternListener
-import com.momentolabs.app.security.applocker.ui.overlay.analytics.OverlayAnalytics
-//import com.momentolabs.app.security.applocker.ui.vault.analytics.VaultAdAnalytics
-import com.momentolabs.app.security.applocker.util.ads.AdTestDevices
 import com.momentolabs.app.security.applocker.util.extensions.convertToPatternDot
 import com.momentolabs.app.security.applocker.util.helper.file.FileManager
 import javax.inject.Inject
@@ -77,13 +72,6 @@ class OverlayValidationActivity : BaseActivity<OverlayValidationViewModel>() {
                 pattern?.let { viewModel.onPatternDrawn(it.convertToPatternDot()) }
             }
         })
-
-        frontPictureLiveData.observe(this, Observer {
-            when (it) {
-                is FrontPictureState.Taken -> OverlayAnalytics.sendIntrudersPhotoTakenEvent(this)
-                is FrontPictureState.Error -> OverlayAnalytics.sendIntrudersCameraFailedEvent(this)
-            }
-        })
     }
 
     override fun onBackPressed() {
@@ -93,42 +81,6 @@ class OverlayValidationActivity : BaseActivity<OverlayValidationViewModel>() {
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
         startActivity(intent)
         finish()
-    }
-
-    override fun onResume() {
-        super.onResume()
-        showBannerAd()
-    }
-
-    private fun showBannerAd() {
-        MobileAds.initialize(this)
-        val mAdView = AdView(this).apply {
-            adSize = AdSize.BANNER
-            adUnitId = getString(R.string.overlay_banner_ad_unit_id)
-            adListener = object : AdListener() {
-                override fun onAdClicked() {
-                    super.onAdClicked()
-//                    VaultAdAnalytics.bannerAdClicked(this@OverlayValidationActivity)
-                }
-
-                override fun onAdFailedToLoad(p0: Int) {
-                    super.onAdFailedToLoad(p0)
-//                    VaultAdAnalytics.bannerAdFailed(this@OverlayValidationActivity)
-                }
-
-                override fun onAdLoaded() {
-                    super.onAdLoaded()
-//                    VaultAdAnalytics.bannerAdLoaded(this@OverlayValidationActivity)
-                }
-            }
-        }
-
-        binding.adContainer.addView(mAdView)
-        val adRequestBuilder = AdRequest.Builder()
-        AdTestDevices.DEVICES.forEach {
-            adRequestBuilder.addTestDevice(it)
-        }
-        mAdView.loadAd(adRequestBuilder.build())
     }
 
     private fun updateLaunchingAppIcon(appPackageName: String) {

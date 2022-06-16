@@ -8,18 +8,12 @@ import androidx.core.view.GravityCompat
 import android.view.MenuItem
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
-import androidx.viewpager.widget.ViewPager
-import com.google.android.material.tabs.TabLayout
 import com.momentolabs.app.security.applocker.R
 import com.momentolabs.app.security.applocker.databinding.ActivityMainBinding
 import com.momentolabs.app.security.applocker.ui.BaseActivity
-import com.momentolabs.app.security.applocker.ui.main.analytics.MainActivityAnalytics
 import com.momentolabs.app.security.applocker.ui.newpattern.CreateNewPatternActivity
 import com.momentolabs.app.security.applocker.ui.overlay.activity.OverlayValidationActivity
-import com.momentolabs.app.security.applocker.ui.permissions.PermissionChecker
-import com.momentolabs.app.security.applocker.ui.permissions.PermissionsActivity
 import com.momentolabs.app.security.applocker.ui.policydialog.PrivacyPolicyDialog
-import com.momentolabs.app.security.applocker.ui.rateus.RateUsDialog
 import com.momentolabs.app.security.applocker.util.helper.NavigationIntentHelper
 
 class MainActivity : BaseActivity<MainViewModel>(), NavigationView.OnNavigationItemSelectedListener {
@@ -34,14 +28,6 @@ class MainActivity : BaseActivity<MainViewModel>(), NavigationView.OnNavigationI
 
         binding.viewPager.adapter = MainPagerAdapter(this, supportFragmentManager)
         binding.tablayout.setupWithViewPager(binding.viewPager)
-        binding.viewPager.addOnPageChangeListener(object : ViewPager.SimpleOnPageChangeListener() {
-            override fun onPageSelected(position: Int) {
-                when (position) {
-                    0 -> MainActivityAnalytics.onSecurityTabSelected(this@MainActivity)
-                    1 -> MainActivityAnalytics.onSettingsTabSelected(this@MainActivity)
-                }
-            }
-        })
 
         binding.imageViewMenu.setOnClickListener { binding.drawerLayout.openDrawer(GravityCompat.START) }
 
