@@ -10,10 +10,10 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.support.AndroidSupportInjection
-import dagger.android.support.HasSupportFragmentInjector
+import dagger.android.HasAndroidInjector
 import javax.inject.Inject
 
-abstract class BaseBottomSheetDialog<VM: ViewModel> : BottomSheetDialogFragment(), HasSupportFragmentInjector {
+abstract class BaseBottomSheetDialog<VM: ViewModel> : BottomSheetDialogFragment(), HasAndroidInjector {
 
     @Inject
     lateinit var viewModelFactory: ViewModelProvider.Factory
@@ -23,7 +23,7 @@ abstract class BaseBottomSheetDialog<VM: ViewModel> : BottomSheetDialogFragment(
     abstract fun getViewModel(): Class<VM>
 
     @Inject
-    lateinit var childFragmentInjector: DispatchingAndroidInjector<Fragment>
+    lateinit var childFragmentInjector: DispatchingAndroidInjector<Any>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,8 +35,9 @@ abstract class BaseBottomSheetDialog<VM: ViewModel> : BottomSheetDialogFragment(
         super.onAttach(context)
     }
 
-    override fun supportFragmentInjector(): AndroidInjector<Fragment>? {
-        return childFragmentInjector
-    }
+//    override fun supportFragmentInjector(): AndroidInjector<Fragment>? {
+//        return childFragmentInjector
+//    }
+    override fun androidInjector() = childFragmentInjector
 
 }

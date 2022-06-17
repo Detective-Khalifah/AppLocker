@@ -37,7 +37,8 @@ class OverlayValidationActivity : BaseActivity<OverlayValidationViewModel>() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_overlay_validation)
 
-        updateLaunchingAppIcon(intent.getStringExtra(KEY_PACKAGE_NAME))
+        intent.getStringExtra(KEY_PACKAGE_NAME)?.let { updateLaunchingAppIcon(it) }
+        // updateLaunchingAppIcon(intent.getStringExtra(KEY_PACKAGE_NAME)) .toString() usable?
 
         frontPictureLiveData = FrontPictureLiveData(application, viewModel.getIntruderPictureImageFile())
 
