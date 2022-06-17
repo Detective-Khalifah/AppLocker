@@ -3,23 +3,24 @@
 
     <data>
 
-        <variable name="viewState"
-                  type="com.momentolabs.app.security.applocker.ui.background.BackgroundsViewState"/>
+        <variable
+            name="viewState"
+            type="com.momentolabs.app.security.applocker.ui.background.BackgroundsViewState" />
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                  android:orientation="vertical"
-                  android:layout_width="match_parent"
-                  android:layout_height="match_parent"
-                  android:padding="@dimen/margin_8dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_8dp">
 
         <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recyclerViewBackgrounds"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                app:spanCount="3"
-                android:clipToPadding="false"/>
+            android:id="@+id/recyclerViewBackgrounds"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="3" />
 
     </LinearLayout>
 

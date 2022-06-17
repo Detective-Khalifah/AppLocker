@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <layout>
-    
+
     <data>
-        
+
         <variable
             name="viewState"
             type="com.momentolabs.app.security.applocker.ui.intruders.IntrudersViewState" />
@@ -59,7 +59,6 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_toEndOf="@+id/imageViewBack"
-                        android:layout_toRightOf="@+id/imageViewBack"
                         android:fontFamily="@font/avenir_medium"
                         android:text="@string/title_intruders_photos"
                         android:textAllCaps="true"

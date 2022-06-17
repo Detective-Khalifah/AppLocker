@@ -40,7 +40,7 @@
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="64dp"
                 android:layout_height="64dp"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:padding="@dimen/margin_16dp"
                 android:visibility="@{viewState.fingerPrintIconVisibility}"
                 app:srcCompat="@drawable/ic_round_fingerprint_24px" />

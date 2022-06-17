@@ -5,31 +5,31 @@
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:animateLayoutChanges="true">
+        android:animateLayoutChanges="true"
+        android:orientation="vertical">
 
         <include
             android:id="@+id/layoutMainActions"
             layout="@layout/layout_main_actions"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerViewAppLockList"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_above="@+id/adLayout"
             android:layout_marginTop="@dimen/margin_8dp"
             android:background="@color/white"
             android:clipToPadding="false"
             android:paddingTop="@dimen/security_recyclerview_padding_top"
-            android:layout_above="@+id/adLayout"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
         <RelativeLayout
             android:id="@+id/adLayout"
             android:layout_width="match_parent"
-            android:layout_alignParentBottom="true"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:gravity="center" />
 
     </RelativeLayout>

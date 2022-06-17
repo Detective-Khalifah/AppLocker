@@ -3,71 +3,72 @@
 <layout>
 
     <data>
+
         <variable
-                name="viewState"
-                type="com.momentolabs.app.security.applocker.ui.security.AppLockItemItemViewState"/>
+            name="viewState"
+            type="com.momentolabs.app.security.applocker.ui.security.AppLockItemItemViewState" />
     </data>
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                    xmlns:app="http://schemas.android.com/apk/res-auto"
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:clickable="true"
-                    android:background="?attr/selectableItemBackground"
-                    android:layout_height="wrap_content">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:orientation="vertical">
 
         <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/imageViewAppIcon"
-                android:layout_margin="@dimen/margin_16dp"
-                android:layout_width="@dimen/size_app_icon"
-                android:layout_height="@dimen/size_app_icon"
-                app:srcCompat="@{viewState.getAppIcon()}"
-                android:layout_centerVertical="true"/>
+            android:id="@+id/imageViewAppIcon"
+            android:layout_width="@dimen/size_app_icon"
+            android:layout_height="@dimen/size_app_icon"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/margin_16dp"
+            app:srcCompat="@{viewState.getAppIcon()}" />
 
         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/imageViewLock"
+            android:layout_toEndOf="@+id/imageViewAppIcon"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/margin_16dp"
+            android:paddingBottom="@dimen/margin_16dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_centerVertical="true"
-                android:gravity="center_vertical"
-                android:layout_toEndOf="@+id/imageViewAppIcon"
-                android:layout_toStartOf="@+id/imageViewLock"
-                android:paddingTop="@dimen/margin_16dp"
-                android:paddingBottom="@dimen/margin_16dp">
-
-            <androidx.appcompat.widget.AppCompatTextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/colorTextGray"
-                    android:fontFamily="@font/avenir_medium"
-                    android:singleLine="true"
-                    android:textSize="@dimen/text_size_regular"
-                    android:text="@{viewState.appName}"/>
+                android:fontFamily="@font/avenir_medium"
+                android:singleLine="true"
+                android:text="@{viewState.appName}"
+                android:textColor="@color/colorTextGray"
+                android:textSize="@dimen/text_size_regular" />
 
 
             <androidx.appcompat.widget.AppCompatTextView
-                    android:layout_width="wrap_content"
-                    android:layout_marginTop="@dimen/margin_4dp"
-                    android:fontFamily="@font/avenir_medium"
-                    android:textSize="@dimen/text_size_small"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:textColor="@color/colorTextGrayLight"
-                    android:text="@string/app_security_description"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_4dp"
+                android:fontFamily="@font/avenir_medium"
+                android:singleLine="true"
+                android:text="@string/app_security_description"
+                android:textColor="@color/colorTextGrayLight"
+                android:textSize="@dimen/text_size_small" />
 
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/imageViewLock"
-                android:padding="@dimen/margin_16dp"
-                android:layout_marginEnd="@dimen/margin_16dp"
-                android:clickable="true"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@{viewState.getLockIcon(context)}"
-                android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true"/>
+            android:id="@+id/imageViewLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:padding="@dimen/margin_16dp"
+            app:srcCompat="@{viewState.getLockIcon(context)}" />
 
     </RelativeLayout>
 
