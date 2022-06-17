@@ -9,8 +9,8 @@
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-7878654882882088/5538338345</string>
 
     <!-- TODO: Consider ADD/DEL-->
-<!--    <string name="overlay_banner_ad_unit_id" translatable="false">ca-app-pub-7878654882882088/8597237218</string>-->
-<!--    <string name="dashboard_banner_ad_unit_id" translatable="false">ca-app-pub-7878654882882088/9894092735</string>-->
+    <!--    <string name="overlay_banner_ad_unit_id" translatable="false">ca-app-pub-7878654882882088/8597237218</string>-->
+    <!--    <string name="dashboard_banner_ad_unit_id" translatable="false">ca-app-pub-7878654882882088/9894092735</string>-->
 
 
     <string name="share">Share</string>
@@ -122,15 +122,6 @@
         <item>Security</item>
         <item>Settings</item>
     </string-array>
-
-    <!-- Call Blocker Activity texts -->
-
-    <!--TODO-->
-<!--    vault > image, video-->
-<!--    <string-array name="call_blocker_tabs">-->
-<!--        <item>Blacklist</item>-->
-<!--        <item>Call Logs</item>-->
-<!--    </string-array>-->
 
     <!-- Intruders Photo Activity -->
     <string name="title_intruders_photos">Intruders Photos</string>

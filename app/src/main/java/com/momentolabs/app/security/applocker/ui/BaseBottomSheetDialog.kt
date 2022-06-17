@@ -2,18 +2,17 @@ package com.momentolabs.app.security.applocker.ui
 
 import android.content.Context
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
-import dagger.android.support.AndroidSupportInjection
 import dagger.android.HasAndroidInjector
+import dagger.android.support.AndroidSupportInjection
 import javax.inject.Inject
 
-abstract class BaseBottomSheetDialog<VM: ViewModel> : BottomSheetDialogFragment(), HasAndroidInjector {
+abstract class BaseBottomSheetDialog<VM : ViewModel> : BottomSheetDialogFragment(),
+    HasAndroidInjector {
 
     @Inject
     lateinit var viewModelFactory: ViewModelProvider.Factory
@@ -35,9 +34,6 @@ abstract class BaseBottomSheetDialog<VM: ViewModel> : BottomSheetDialogFragment(
         super.onAttach(context)
     }
 
-//    override fun supportFragmentInjector(): AndroidInjector<Fragment>? {
-//        return childFragmentInjector
-//    }
     override fun androidInjector() = childFragmentInjector
 
 }
