@@ -9,9 +9,9 @@ I decided to open source my side project SecureBox. I'm sure most of us are suff
 # App Features
 * App locker
 * Fingerprint Validation
-* Vault Image/Video file (File Encryption/Decryption)
-* Block call (Blacklist)
-* Private Browser
+* <del>Vault Image/Video file (File Encryption/Decryption)</del>
+* <del>Block call (Blacklist)</del>
+* <del>Private Browser</del>
 * Take intruders photo secretly (Camera 1 API)
 
 # What can I learn
@@ -26,9 +26,9 @@ I decided to open source my side project SecureBox. I'm sure most of us are suff
 * MVVM pattern using ViewState
 * DataBinding; Binding Adapter, Binding Conversion and more.
 * Kotlin Delegates
-* File Cryptography in Android
-* Call Screening Service (For creating custom dialer app)
-* Custom Browser
+* <i>File Cryptography in Android<i>
+* <del>Call Screening Service (For creating custom dialer app)</del>
+* <del>Custom Browser</del>
 * Camera 1 API to take photo without preview.
 * Overlay Activity from background Service
 * more..
