@@ -7,7 +7,6 @@
     <string name="action_settings">Réglages</string>
 
     <string name="share">Partager</string>
-    <string name="rate">Évaluez nous</string>
 
     <string-array name="tabs">
         <item>Sécurité</item>
@@ -79,11 +78,6 @@
     <string name="overlay_prompt_fingerprint_title_wrong">Pas adapté. %1$s reste.</string>
     <string name="overlay_prompt_fingerprint_title_correct">Empreinte digitale assortie!</string>
     <string name="overlay_prompt_fingerprint_title_error">Erreur d\'empreinte digitale! Essayez le modèle.</string>
-
-    <string name="dialog_title_rate_us">Vous avez aimé SecureBox?</string>
-    <string name="dialog_description_rate_us">Nous serons tellement heureux si vous nous notez sur le marché.</string>
-    <string name="dialog_action_rate_us_rate">Taux</string>
-    <string name="dialog_action_rate_us_later">Plus tard</string>
 
     <string name="dialog_title_usage_permission">Android 5.0 Permission</string>
     <string name="dialog_description_usage_permission">Sous Android 5.0 ou version ultérieure, vous devez autoriser l\'accès à l\'utilisation pour         AppLocker, pour pouvoir utiliser SecureBox Feature     </string>

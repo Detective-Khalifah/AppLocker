@@ -42,7 +42,7 @@ class MainViewModel @Inject constructor(
     override fun onCleared() {
         super.onCleared()
         appLaunchValidated = false
-        userPreferencesRepository.endSession()
+        userPreferencesRepository.endSession() // TODO: delete
     }
 
 }

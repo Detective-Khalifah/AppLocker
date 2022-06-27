@@ -7,7 +7,6 @@
     <string name="action_settings">सेटिंग्स</string>
 
     <string name="share">शेयर</string>
-    <string name="rate">हमें रेटिंग दें</string>
 
     <string-array name="tabs">
         <item>सुरक्षा</item>
@@ -79,11 +78,6 @@
     <string name="overlay_prompt_fingerprint_title_wrong">मिलान नही हुआ। %1$s बचे हैं।</string>
     <string name="overlay_prompt_fingerprint_title_correct">फिंगरप्रिंट मिलान!</string>
     <string name="overlay_prompt_fingerprint_title_error">फ़िंगरप्रिंट त्रुटि! पैटर्न आजमाएं।</string>
-
-    <string name="dialog_title_rate_us">क्या आपको सिक्योरबॉक्स पसंद है?</string>
-    <string name="dialog_description_rate_us">हम sooo खुश हो जाएगा यदि आप हमें बाजार पर रेट करते हैं।</string>
-    <string name="dialog_action_rate_us_rate">मूल्यांकन करें</string>
-    <string name="dialog_action_rate_us_later">बाद में</string>
 
     <string name="dialog_title_usage_permission">Android 5.0 की अनुमति</string>
     <string name="dialog_description_usage_permission">एंड्रॉइड 5.0 या इसके बाद के संस्करण में, आपको इसके लिए उपयोग की अनुमति देने की आवश्यकता है         AppLocker, ताकि आप SecureBox फ़ीचर का उपयोग कर सकें     </string>

@@ -13,7 +13,6 @@ import com.momentolabs.app.security.applocker.ui.overlay.activity.OverlayValidat
 import com.momentolabs.app.security.applocker.ui.permissiondialog.UsageAccessPermissionViewModel
 import com.momentolabs.app.security.applocker.ui.permissions.PermissionsViewModel
 import com.momentolabs.app.security.applocker.ui.policydialog.PrivacyPolicyViewModel
-import com.momentolabs.app.security.applocker.ui.rateus.RateUsViewModel
 import com.momentolabs.app.security.applocker.ui.security.SecurityViewModel
 import com.momentolabs.app.security.applocker.ui.settings.SettingsViewModel
 import dagger.Binds
@@ -62,11 +61,6 @@ internal abstract class ViewModelModule {
     @Binds
     @ViewModelKey(SettingsViewModel::class)
     abstract fun provideSettingsViewModel(settingsViewModel: SettingsViewModel): ViewModel
-
-    @IntoMap
-    @Binds
-    @ViewModelKey(RateUsViewModel::class)
-    abstract fun provideRateUsViewModel(rateUsViewModel: RateUsViewModel): ViewModel
 
     @IntoMap
     @Binds

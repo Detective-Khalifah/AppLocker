@@ -7,7 +7,6 @@
     <string name="action_settings">设置</string>
 
     <string name="share">分享</string>
-    <string name="rate">评价我们</string>
 
     <string-array name="tabs">
         <item>安全</item>
@@ -79,11 +78,6 @@
     <string name="overlay_prompt_fingerprint_title_wrong">不匹配。剩下 %1$s。</string>
     <string name="overlay_prompt_fingerprint_title_correct">指纹匹配！</string>
     <string name="overlay_prompt_fingerprint_title_error">指纹错误！尝试模式。</string>
-
-    <string name="dialog_title_rate_us">你喜欢SecureBox吗？</string>
-    <string name="dialog_description_rate_us">如果您在市场上评价我们，我们将非常高兴。</string>
-    <string name="dialog_action_rate_us_rate">率</string>
-    <string name="dialog_action_rate_us_later">后来</string>
 
     <string name="dialog_title_usage_permission">Android 5.0权限</string>
     <string name="dialog_description_usage_permission">在Android 5.0或更高版本中，您需要允许使用访问权限         AppLocker，以便您可以使用SecureBox功能     </string>

@@ -7,7 +7,6 @@
     <string name="action_settings">настройки</string>
 
     <string name="share">Поделиться</string>
-    <string name="rate">Оцените нас</string>
 
     <string-array name="tabs">
         <item>Безопасность</item>
@@ -79,11 +78,6 @@
     <string name="overlay_prompt_fingerprint_title_wrong">Не соответствует. Осталось %1$s.</string>
     <string name="overlay_prompt_fingerprint_title_correct">Отпечаток пальца совпадает!</string>
     <string name="overlay_prompt_fingerprint_title_error">Ошибка отпечатка пальца! Попробуйте шаблон.</string>
-
-    <string name="dialog_title_rate_us">Вам понравился SecureBox?</string>
-    <string name="dialog_description_rate_us">Мы будем очень рады, если вы оцените нас на рынке.</string>
-    <string name="dialog_action_rate_us_rate">Темп</string>
-    <string name="dialog_action_rate_us_later">Потом</string>
 
     <string name="dialog_title_usage_permission">Разрешение Android 5.0</string>
     <string name="dialog_description_usage_permission">В Android 5.0 или более поздней версии вам необходимо разрешить доступ к         AppLocker, так что вы можете использовать функцию SecureBox     </string>

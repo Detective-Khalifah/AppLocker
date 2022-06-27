@@ -7,7 +7,6 @@
     <string name="action_settings">Налаштування</string>
 
     <string name="share">Поділитися</string>
-    <string name="rate">Оцініть нас</string>
 
     <string-array name="tabs">
         <item>Безпека</item>
@@ -79,11 +78,6 @@
     <string name="overlay_prompt_fingerprint_title_wrong">Не збігаються. Залишилось %1$s.</string>
     <string name="overlay_prompt_fingerprint_title_correct">Відбитки пальців збігаються!</string>
     <string name="overlay_prompt_fingerprint_title_error">Помилка відбитків пальців! Спробуйте шаблон.</string>
-
-    <string name="dialog_title_rate_us">Вам сподобався SecureBox?</string>
-    <string name="dialog_description_rate_us">Ми будемо дуже раді, якщо ви оціните нас на ринку.</string>
-    <string name="dialog_action_rate_us_rate">Ставка</string>
-    <string name="dialog_action_rate_us_later">Пізніше</string>
 
     <string name="dialog_title_usage_permission">Дозвіл Android 5.0</string>
     <string name="dialog_description_usage_permission">В ОС Android 5.0 або новішої версії потрібно дозволити доступ до використання для         AppLocker, щоб ви могли використовувати функцію SecureBox     </string>

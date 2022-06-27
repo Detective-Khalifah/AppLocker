@@ -7,7 +7,6 @@
     <string name="action_settings">Ayarlar</string>
 
     <string name="share">Paylaş</string>
-    <string name="rate">Bizi değerlendirin</string>
 
     <string-array name="tabs">
         <item>Güvenlik</item>
@@ -79,11 +78,6 @@
     <string name="overlay_prompt_fingerprint_title_wrong">Eşleşmedi. %1$s kaldı.</string>
     <string name="overlay_prompt_fingerprint_title_correct">Parmak izi eşleşti!</string>
     <string name="overlay_prompt_fingerprint_title_error">Parmak izi hatası! Desen deneyin.</string>
-
-    <string name="dialog_title_rate_us">SecureBox hoşunuza gitti mi?</string>
-    <string name="dialog_description_rate_us">Bizi piyasada değerlendirirseniz çok mutlu olacağız.</string>
-    <string name="dialog_action_rate_us_rate">5 Yıldız</string>
-    <string name="dialog_action_rate_us_later">Sonra</string>
 
     <string name="dialog_title_usage_permission">Android 5.0 İzni</string>
     <string name="dialog_description_usage_permission">Android 5.0 veya üzeri sürümlerde, kullanım için erişim erişimine izin vermeniz gerekir.         AppLocker, böylece SecureBox Özelliğini kullanabilirsiniz     </string>

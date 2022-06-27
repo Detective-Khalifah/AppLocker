@@ -7,7 +7,6 @@
     <string name="action_settings">設定</string>
 
     <string name="share">シェア</string>
-    <string name="rate">私たちを評価してください</string>
 
     <string-array name="tabs">
         <item>セキュリティ</item>
@@ -79,11 +78,6 @@
     <string name="overlay_prompt_fingerprint_title_wrong">一致しません。残り %1$s。</string>
     <string name="overlay_prompt_fingerprint_title_correct">指紋が一致しました！</string>
     <string name="overlay_prompt_fingerprint_title_error">指紋エラー！パターンを試してください。</string>
-
-    <string name="dialog_title_rate_us">SecureBoxが気に入りましたか？</string>
-    <string name="dialog_description_rate_us">あなたが市場で私たちを評価した場合、私たちはすっごく幸せになります。</string>
-    <string name="dialog_action_rate_us_rate">レート</string>
-    <string name="dialog_action_rate_us_later">後</string>
 
     <string name="dialog_title_usage_permission">Android 5.0の許可</string>
     <string name="dialog_description_usage_permission">Android 5.0以降では、使用アクセスを許可する必要があります         AppLocker。SecureBox機能を使用できます。     </string>

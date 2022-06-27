@@ -62,7 +62,6 @@ class MainActivity : BaseActivity<MainViewModel>(), NavigationView.OnNavigationI
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.nav_share -> startActivity(NavigationIntentHelper.getShareAppIntent())
-            R.id.nav_rate_us -> startActivity(NavigationIntentHelper.getRateAppIntent())
             R.id.nav_feedback -> startActivity(NavigationIntentHelper.getFeedbackIntent())
         }
         binding.drawerLayout.closeDrawer(GravityCompat.START)

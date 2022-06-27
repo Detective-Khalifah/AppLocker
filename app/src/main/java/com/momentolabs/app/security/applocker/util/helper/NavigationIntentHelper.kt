@@ -19,13 +19,6 @@ object NavigationIntentHelper {
         return sendIntent
     }
 
-    fun getRateAppIntent(): Intent {
-        return Intent(
-            Intent.ACTION_VIEW,
-            Uri.parse("market://details?id=${BuildConfig.APPLICATION_ID}")
-        )
-    }
-
     fun getFeedbackIntent(): Intent {
         val emailIntent = Intent(
             Intent.ACTION_SENDTO, Uri.fromParts(

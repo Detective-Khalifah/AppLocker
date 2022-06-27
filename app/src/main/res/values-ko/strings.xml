@@ -7,7 +7,6 @@
     <string name="action_settings">설정</string>
 
     <string name="share">몫</string>
-    <string name="rate">우리를 평가</string>
 
     <string-array name="tabs">
         <item>보안</item>
@@ -79,11 +78,6 @@
     <string name="overlay_prompt_fingerprint_title_wrong">일치하지 않습니다. %1$s 남음</string>
     <string name="overlay_prompt_fingerprint_title_correct">지문 일치!</string>
     <string name="overlay_prompt_fingerprint_title_error">지문 오류! 패턴을보십시오.</string>
-
-    <string name="dialog_title_rate_us">SecureBox를 좋아했습니까?</string>
-    <string name="dialog_description_rate_us">시장에서 우리를 평가한다면 우리는 행복 할 것입니다.</string>
-    <string name="dialog_action_rate_us_rate">율</string>
-    <string name="dialog_action_rate_us_later">후에</string>
 
     <string name="dialog_title_usage_permission">안드로이드 5.0 권한</string>
     <string name="dialog_description_usage_permission">Android 5.0 이상에서는 다음에 대한 사용 액세스를 허용해야합니다.         SecureBox 기능을 사용할 수 있도록 AppLocker     </string>

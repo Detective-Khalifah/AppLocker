@@ -7,7 +7,6 @@
     <string name="action_settings">الإعدادات</string>
 
     <string name="share">شارك</string>
-    <string name="rate">قيمنا</string>
 
     <string-array name="tabs">
         <item>الأمان</item>
@@ -79,11 +78,6 @@
     <string name="overlay_prompt_fingerprint_title_wrong">غير متطابق. غادر٪ %1$s</string>
     <string name="overlay_prompt_fingerprint_title_correct">بصمة المتطابقة!</string>
     <string name="overlay_prompt_fingerprint_title_error">خطأ بصمة! حاول نمط.</string>
-
-    <string name="dialog_title_rate_us">هل أعجبك SecureBox؟</string>
-    <string name="dialog_description_rate_us">سنكون سعداء إذا كنت تقيم لنا في السوق.</string>
-    <string name="dialog_action_rate_us_rate">معدل</string>
-    <string name="dialog_action_rate_us_later">في وقت لاحق</string>
 
     <string name="dialog_title_usage_permission">أندرويد 5.0 إذن</string>
     <string name="dialog_description_usage_permission">في Android 5.0 أو أعلى ، تحتاج إلى السماح بوصول الاستخدام إلى         AppLocker ، بحيث يمكنك استخدام ميزة SecureBox     </string>

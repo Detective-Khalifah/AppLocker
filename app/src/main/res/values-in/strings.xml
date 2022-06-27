@@ -7,7 +7,6 @@
     <string name="action_settings">Pengaturan</string>
 
     <string name="share">Bagikan</string>
-    <string name="rate">Nilai kami</string>
 
     <string-array name="tabs">
         <item>Keamanan</item>
@@ -79,11 +78,6 @@
     <string name="overlay_prompt_fingerprint_title_wrong">Tidak cocok. %1$s tersisa.</string>
     <string name="overlay_prompt_fingerprint_title_correct">Sidik jari cocok!</string>
     <string name="overlay_prompt_fingerprint_title_error">Kesalahan sidik jari! Coba pola.</string>
-
-    <string name="dialog_title_rate_us">Apakah Anda suka SecureBox?</string>
-    <string name="dialog_description_rate_us">Kami akan sangat senang jika Anda menilai kami di pasar.</string>
-    <string name="dialog_action_rate_us_rate">Menilai</string>
-    <string name="dialog_action_rate_us_later">Kemudian</string>
 
     <string name="dialog_title_usage_permission">Izin Android 5.0</string>
     <string name="dialog_description_usage_permission">Di Android 5.0 atau lebih tinggi, Anda harus mengizinkan akses penggunaan untuk         AppLocker, sehingga Anda dapat menggunakan Fitur SecureBox     </string>
