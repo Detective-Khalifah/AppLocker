@@ -35,8 +35,6 @@ class MainViewModel @Inject constructor(
         appLaunchValidated = true
     }
 
-    fun isPrivacyPolicyAccepted() = userPreferencesRepository.isPrivacyPolicyAccepted()
-
     fun isAppLaunchValidated(): Boolean = appLaunchValidated
 
     override fun onCleared() {

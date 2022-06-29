@@ -12,7 +12,6 @@ import com.momentolabs.app.security.applocker.ui.newpattern.CreateNewPatternView
 import com.momentolabs.app.security.applocker.ui.overlay.activity.OverlayValidationViewModel
 import com.momentolabs.app.security.applocker.ui.permissiondialog.UsageAccessPermissionViewModel
 import com.momentolabs.app.security.applocker.ui.permissions.PermissionsViewModel
-import com.momentolabs.app.security.applocker.ui.policydialog.PrivacyPolicyViewModel
 import com.momentolabs.app.security.applocker.ui.security.SecurityViewModel
 import com.momentolabs.app.security.applocker.ui.settings.SettingsViewModel
 import dagger.Binds
@@ -66,11 +65,6 @@ internal abstract class ViewModelModule {
     @Binds
     @ViewModelKey(UsageAccessPermissionViewModel::class)
     abstract fun provideUsageAccessPermissionViewModel(permissionsViewModel: PermissionsViewModel): ViewModel
-
-    @IntoMap
-    @Binds
-    @ViewModelKey(PrivacyPolicyViewModel::class)
-    abstract fun providePrivacyPolicyViewModel(privacyPolicyViewModel: PrivacyPolicyViewModel): ViewModel
 
     @IntoMap
     @Binds

@@ -8,17 +8,6 @@ import androidx.core.content.ContextCompat.startActivity
 
 object NavigationIntentHelper {
 
-    fun getShareAppIntent(): Intent {
-        val sendIntent = Intent()
-        sendIntent.action = Intent.ACTION_SEND
-        sendIntent.putExtra(
-            Intent.EXTRA_TEXT,
-            "Hey check out app at: https://play.google.com/store/apps/details?id=${BuildConfig.APPLICATION_ID}"
-        )
-        sendIntent.type = "text/plain"
-        return sendIntent
-    }
-
     fun getFeedbackIntent(): Intent {
         val emailIntent = Intent(
             Intent.ACTION_SENDTO, Uri.fromParts(

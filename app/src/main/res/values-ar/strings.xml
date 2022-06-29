@@ -6,8 +6,6 @@
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="action_settings">الإعدادات</string>
 
-    <string name="share">شارك</string>
-
     <string-array name="tabs">
         <item>الأمان</item>
         <item>الإعدادات</item>
@@ -21,10 +19,7 @@
     <string name="notification_permission_need_title">تمكين إذن للحماية</string>
     <string name="notification_permission_need_description">يرجى تمكين أذوناتك لاستخدام خزانة التطبيق.</string>
 
-    <string name="you_accept_privacy_policy">بالمتابعة أنت توافق على         <u>Privacy Policy</u>
-    </string>
 
-    
     <string name="header_recommended_to_lock">أوصت لقفل</string>
     <string name="header_all_apps">جميع التطبيقات</string>
 
@@ -83,11 +78,6 @@
     <string name="dialog_description_usage_permission">في Android 5.0 أو أعلى ، تحتاج إلى السماح بوصول الاستخدام إلى         AppLocker ، بحيث يمكنك استخدام ميزة SecureBox     </string>
     <string name="dialog_action_usage_permission_permit">تصريح</string>
     <string name="dialog_action_usage_permission_cancel">إلغاء</string>
-
-    <string name="dialog_title_privacy_policy">سياسة خاصة</string>
-    <string name="dialog_description_privacy_policy">لقد قمنا بتحديث سياسة الخصوصية الخاصة بنا. بالمتابعة أنت توافق على         <u>Privacy Policy</u>
-    </string>
-    <string name="dialog_action_privacy_policy_accept">قبول</string>
 
     <string name="title_main_background">موضوع</string>
 

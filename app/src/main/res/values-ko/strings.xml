@@ -6,8 +6,6 @@
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="action_settings">설정</string>
 
-    <string name="share">몫</string>
-
     <string-array name="tabs">
         <item>보안</item>
         <item>설정</item>
@@ -21,10 +19,7 @@
     <string name="notification_permission_need_title">보호 권한 활성화</string>
     <string name="notification_permission_need_description">앱 로커를 사용하려면 권한을 활성화하십시오.</string>
 
-    <string name="you_accept_privacy_policy">계속하면         <u>Privacy Policy</u>
-    </string>
 
-    
     <string name="header_recommended_to_lock">잠그는 것이 좋습니다</string>
     <string name="header_all_apps">모든 응용</string>
 
@@ -83,11 +78,6 @@
     <string name="dialog_description_usage_permission">Android 5.0 이상에서는 다음에 대한 사용 액세스를 허용해야합니다.         SecureBox 기능을 사용할 수 있도록 AppLocker     </string>
     <string name="dialog_action_usage_permission_permit">허가</string>
     <string name="dialog_action_usage_permission_cancel">취소</string>
-
-    <string name="dialog_title_privacy_policy">개인 정보 정책</string>
-    <string name="dialog_description_privacy_policy">개인 정보 보호 정책이 업데이트되었습니다. 계속하면         <u>Privacy Policy</u>
-    </string>
-    <string name="dialog_action_privacy_policy_accept">수락</string>
 
     <string name="title_main_background">테마</string>
 

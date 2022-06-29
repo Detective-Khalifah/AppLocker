@@ -35,17 +35,6 @@ class AppLockerPreferences @Inject constructor(context: Context) {
     fun getIntrudersCatcherEnabled(): Boolean = sharedPref.getBoolean(
         KEY_IS_INTRUDERS_CATCHER_ENABLE, false)
 
-    fun setUserRateUs() {
-        with(sharedPref.edit()) {
-            putBoolean(KEY_RATE_US, true)
-            apply()
-        }
-    }
-
-    fun isUserRateUs(): Boolean {
-        return sharedPref.getBoolean(KEY_RATE_US, false)
-    }
-
     fun setSelectedBackgroundId(backgroundId: Int) {
         with(sharedPref.edit()) {
             putInt(KEY_BACKGROUND_ID, backgroundId)
@@ -57,17 +46,6 @@ class AppLockerPreferences @Inject constructor(context: Context) {
         return sharedPref.getInt(KEY_BACKGROUND_ID, 0)
     }
 
-    fun acceptPrivacyPolicy(){
-        with(sharedPref.edit()) {
-            putBoolean(KEY_ACCEPT_PRIVACY_POLICY, true)
-            apply()
-        }
-    }
-
-    fun isPrivacyPolicyAccepted(): Boolean{
-        return sharedPref.getBoolean(KEY_ACCEPT_PRIVACY_POLICY, false)
-    }
-
     companion object {
 
         private const val PREFERENCES_NAME = "AppLockerPreferences"
@@ -77,10 +55,6 @@ class AppLockerPreferences @Inject constructor(context: Context) {
         private const val KEY_IS_FINGERPRINT_ENABLE = "KEY_IS_FINGERPRINT_ENABLE"
 
         private const val KEY_IS_INTRUDERS_CATCHER_ENABLE = "KEY_IS_INTRUDERS_CATCHER_ENABLE"
-
-        private const val KEY_RATE_US = "KEY_RATE_US"
-
-        private const val KEY_ACCEPT_PRIVACY_POLICY = "KEY_ACCEPT_PRIVACY_POLICY"
 
         private const val KEY_BACKGROUND_ID = "KEY_BACKGROUND_ID"
     }

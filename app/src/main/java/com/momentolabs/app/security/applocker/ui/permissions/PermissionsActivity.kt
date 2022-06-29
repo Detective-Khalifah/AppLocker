@@ -43,10 +43,6 @@ class PermissionsActivity : BaseActivity<PermissionsViewModel>() {
                 toast(R.string.permission_toast_enable_permissions)
             }
         }
-
-        binding.textViewPrivacyPolicy.setOnClickListener {
-            startActivity(IntentHelper.privacyPolicyWebIntent())
-        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

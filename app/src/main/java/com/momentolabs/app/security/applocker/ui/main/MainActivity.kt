@@ -13,7 +13,6 @@ import com.momentolabs.app.security.applocker.databinding.ActivityMainBinding
 import com.momentolabs.app.security.applocker.ui.BaseActivity
 import com.momentolabs.app.security.applocker.ui.newpattern.CreateNewPatternActivity
 import com.momentolabs.app.security.applocker.ui.overlay.activity.OverlayValidationActivity
-import com.momentolabs.app.security.applocker.ui.policydialog.PrivacyPolicyDialog
 import com.momentolabs.app.security.applocker.util.helper.NavigationIntentHelper
 
 class MainActivity : BaseActivity<MainViewModel>(), NavigationView.OnNavigationItemSelectedListener {
@@ -61,7 +60,6 @@ class MainActivity : BaseActivity<MainViewModel>(), NavigationView.OnNavigationI
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.nav_share -> startActivity(NavigationIntentHelper.getShareAppIntent())
             R.id.nav_feedback -> startActivity(NavigationIntentHelper.getFeedbackIntent())
         }
         binding.drawerLayout.closeDrawer(GravityCompat.START)
@@ -73,7 +71,6 @@ class MainActivity : BaseActivity<MainViewModel>(), NavigationView.OnNavigationI
         when (requestCode) {
             RC_CREATE_PATTERN -> {
                 viewModel.onAppLaunchValidated()
-                showPrivacyPolicyIfNeeded()
                 if (resultCode != Activity.RESULT_OK) {
                     finish()
                 }
@@ -81,17 +78,10 @@ class MainActivity : BaseActivity<MainViewModel>(), NavigationView.OnNavigationI
             RC_VALIDATE_PATTERN -> {
                 if (resultCode == Activity.RESULT_OK) {
                     viewModel.onAppLaunchValidated()
-                    showPrivacyPolicyIfNeeded()
                 } else {
                     finish()
                 }
             }
-        }
-    }
-
-    private fun showPrivacyPolicyIfNeeded() {
-        if (viewModel.isPrivacyPolicyAccepted().not()) {
-            PrivacyPolicyDialog.newInstance().show(supportFragmentManager, "")
         }
     }
 

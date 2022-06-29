@@ -6,8 +6,6 @@
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="action_settings">настройки</string>
 
-    <string name="share">Поделиться</string>
-
     <string-array name="tabs">
         <item>Безопасность</item>
         <item>настройки</item>
@@ -21,10 +19,7 @@
     <string name="notification_permission_need_title">Включить разрешение на защиту</string>
     <string name="notification_permission_need_description">Пожалуйста, включите ваши разрешения на использование блокировки приложений.</string>
 
-    <string name="you_accept_privacy_policy">Продолжая, вы соглашаетесь         <u>Privacy Policy</u>
-    </string>
 
-    
     <string name="header_recommended_to_lock">Рекомендуется для блокировки</string>
     <string name="header_all_apps">Все приложения</string>
 
@@ -83,11 +78,6 @@
     <string name="dialog_description_usage_permission">В Android 5.0 или более поздней версии вам необходимо разрешить доступ к         AppLocker, так что вы можете использовать функцию SecureBox     </string>
     <string name="dialog_action_usage_permission_permit">Разрешать</string>
     <string name="dialog_action_usage_permission_cancel">отменить</string>
-
-    <string name="dialog_title_privacy_policy">политика конфиденциальности</string>
-    <string name="dialog_description_privacy_policy">Мы обновили нашу политику конфиденциальности. Продолжая, вы соглашаетесь         <u>Privacy Policy</u>
-    </string>
-    <string name="dialog_action_privacy_policy_accept">принимать</string>
 
     <string name="title_main_background">тема</string>
 

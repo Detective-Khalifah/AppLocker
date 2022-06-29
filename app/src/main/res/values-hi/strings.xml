@@ -6,8 +6,6 @@
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="action_settings">सेटिंग्स</string>
 
-    <string name="share">शेयर</string>
-
     <string-array name="tabs">
         <item>सुरक्षा</item>
         <item>सेटिंग्स</item>
@@ -21,10 +19,7 @@
     <string name="notification_permission_need_title">सुरक्षा के लिए अनुमति सक्षम करें</string>
     <string name="notification_permission_need_description">कृपया ऐप लॉकर का उपयोग करने के लिए अपनी अनुमतियां सक्षम करें।</string>
 
-    <string name="you_accept_privacy_policy">जारी रखकर आप सहमत हैं         <u>Privacy Policy</u>
-    </string>
 
-    
     <string name="header_recommended_to_lock">ताला लगाने की सलाह दी</string>
     <string name="header_all_apps">सभी अनुप्रयोगों</string>
 
@@ -83,11 +78,6 @@
     <string name="dialog_description_usage_permission">एंड्रॉइड 5.0 या इसके बाद के संस्करण में, आपको इसके लिए उपयोग की अनुमति देने की आवश्यकता है         AppLocker, ताकि आप SecureBox फ़ीचर का उपयोग कर सकें     </string>
     <string name="dialog_action_usage_permission_permit">परमिट</string>
     <string name="dialog_action_usage_permission_cancel">रद्द करना</string>
-
-    <string name="dialog_title_privacy_policy">गोपनीयता नीति</string>
-    <string name="dialog_description_privacy_policy">हमने अपनी गोपनीयता नीति को अपडेट कर दिया है। जारी रखकर आप सहमत हैं         <u>Privacy Policy</u>
-    </string>
-    <string name="dialog_action_privacy_policy_accept">स्वीकार करना</string>
 
     <string name="title_main_background">विषय</string>
 

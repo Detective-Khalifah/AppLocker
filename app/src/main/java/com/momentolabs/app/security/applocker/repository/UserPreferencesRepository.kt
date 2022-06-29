@@ -7,9 +7,5 @@ import javax.inject.Singleton
 @Singleton
 class UserPreferencesRepository @Inject constructor(val appLockerPreferences: AppLockerPreferences) {
 
-    fun isPrivacyPolicyAccepted(): Boolean {
-        return appLockerPreferences.isPrivacyPolicyAccepted()
-    }
-
     fun endSession(){}
 }

@@ -6,8 +6,6 @@
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="action_settings">die Einstellungen</string>
 
-    <string name="share">Aktie</string>
-
     <string-array name="tabs">
         <item>Sicherheit</item>
         <item>die Einstellungen</item>
@@ -21,10 +19,7 @@
     <string name="notification_permission_need_title">Aktivieren Sie die Berechtigung zum Schutz</string>
     <string name="notification_permission_need_description">Bitte aktivieren Sie Ihre Berechtigungen, um App Locker zu verwenden.</string>
 
-    <string name="you_accept_privacy_policy">Wenn Sie fortfahren, stimmen Sie dem zu         <u>Privacy Policy</u>
-    </string>
 
-    
     <string name="header_recommended_to_lock">Empfohlen zu sperren</string>
     <string name="header_all_apps">Alle Anwendungen</string>
 
@@ -83,11 +78,6 @@
     <string name="dialog_description_usage_permission">In Android 5.0 oder höher müssen Sie den Nutzungszugriff für zulassen         AppLocker, damit Sie SecureBox Feature verwenden können     </string>
     <string name="dialog_action_usage_permission_permit">Erlauben</string>
     <string name="dialog_action_usage_permission_cancel">Stornieren</string>
-
-    <string name="dialog_title_privacy_policy">Datenschutz-Bestimmungen</string>
-    <string name="dialog_description_privacy_policy">Wir haben unsere Datenschutzrichtlinie aktualisiert. Wenn Sie fortfahren, stimmen Sie dem zu         <u>Privacy Policy</u>
-    </string>
-    <string name="dialog_action_privacy_policy_accept">Akzeptieren</string>
 
     <string name="title_main_background">Thema</string>
 

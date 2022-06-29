@@ -13,7 +13,6 @@
     <!--    <string name="dashboard_banner_ad_unit_id" translatable="false">ca-app-pub-7878654882882088/9894092735</string>-->
 
 
-    <string name="share">Share</string>
     <string name="feedback">Feedback</string>
 
     <string name="app_security_description">Recommended to lock app</string>
@@ -25,9 +24,6 @@
     <string name="notification_permission_need_title">Enable permission to protection</string>
 
     <string name="notification_permission_need_description">Please enable your permissions to use app locker.</string>
-    <string name="you_accept_privacy_policy">By continuing you agree the
-        <u>Privacy Policy</u>
-    </string>
 
     <string name="header_recommended_to_lock">Recommended to lock</string>
     <string name="header_all_apps">All applications</string>
@@ -100,11 +96,6 @@
     <string name="dialog_action_usage_permission_permit">Permit</string>
 
     <string name="dialog_action_usage_permission_cancel">Cancel</string>
-    <string name="dialog_title_privacy_policy">Privacy Policy</string>
-    <string name="dialog_description_privacy_policy">We have updated our privacy policy. By continuing you agree the
-        <u>Privacy Policy</u>
-    </string>
-    <string name="dialog_action_privacy_policy_accept">Accept</string>
 
     <string name="title_main_background">Theme</string>
 

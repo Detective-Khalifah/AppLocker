@@ -6,8 +6,6 @@
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="action_settings">Pengaturan</string>
 
-    <string name="share">Bagikan</string>
-
     <string-array name="tabs">
         <item>Keamanan</item>
         <item>Pengaturan</item>
@@ -21,10 +19,7 @@
     <string name="notification_permission_need_title">Aktifkan izin perlindungan</string>
     <string name="notification_permission_need_description">Harap aktifkan izin Anda untuk menggunakan pengunci aplikasi.</string>
 
-    <string name="you_accept_privacy_policy">Dengan melanjutkan, Anda menyetujui         <u>Privacy Policy</u>
-    </string>
 
-    
     <string name="header_recommended_to_lock">Disarankan untuk mengunci</string>
     <string name="header_all_apps">Semua aplikasi</string>
 
@@ -83,11 +78,6 @@
     <string name="dialog_description_usage_permission">Di Android 5.0 atau lebih tinggi, Anda harus mengizinkan akses penggunaan untuk         AppLocker, sehingga Anda dapat menggunakan Fitur SecureBox     </string>
     <string name="dialog_action_usage_permission_permit">Izin</string>
     <string name="dialog_action_usage_permission_cancel">Membatalkan</string>
-
-    <string name="dialog_title_privacy_policy">Rahasia pribadi</string>
-    <string name="dialog_description_privacy_policy">Kami telah memperbarui kebijakan privasi kami. Dengan melanjutkan, Anda menyetujui         <u>Privacy Policy</u>
-    </string>
-    <string name="dialog_action_privacy_policy_accept">Menerima</string>
 
     <string name="title_main_background">Tema</string>
 

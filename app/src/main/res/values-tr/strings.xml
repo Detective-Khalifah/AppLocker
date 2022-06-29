@@ -6,8 +6,6 @@
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="action_settings">Ayarlar</string>
 
-    <string name="share">Paylaş</string>
-
     <string-array name="tabs">
         <item>Güvenlik</item>
         <item>Ayarlar</item>
@@ -21,10 +19,7 @@
     <string name="notification_permission_need_title">Koruma iznini etkinleştir</string>
     <string name="notification_permission_need_description">Lütfen uygulama dolabı kullanmak için izinlerinizi etkinleştirin.</string>
 
-    <string name="you_accept_privacy_policy">Devam ederek katılıyorum         <u>Privacy Policy</u>
-    </string>
 
-    
     <string name="header_recommended_to_lock">Kilitlemek için tavsiye</string>
     <string name="header_all_apps">Bütün uygulamalar</string>
 
@@ -83,11 +78,6 @@
     <string name="dialog_description_usage_permission">Android 5.0 veya üzeri sürümlerde, kullanım için erişim erişimine izin vermeniz gerekir.         AppLocker, böylece SecureBox Özelliğini kullanabilirsiniz     </string>
     <string name="dialog_action_usage_permission_permit">İzin ver</string>
     <string name="dialog_action_usage_permission_cancel">Vazgeç</string>
-
-    <string name="dialog_title_privacy_policy">Gizlilik Politikası</string>
-    <string name="dialog_description_privacy_policy">Gizlilik politikamızı güncelledik. Devam ederek katılıyorum         <u>Privacy Policy</u>
-    </string>
-    <string name="dialog_action_privacy_policy_accept">Kabul et</string>
 
     <string name="title_main_background">Tema</string>
 

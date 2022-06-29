@@ -6,8 +6,6 @@
     <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
     <string name="action_settings">Configuraciones</string>
 
-    <string name="share">Compartir</string>
-
     <string-array name="tabs">
         <item>Seguridad</item>
         <item>Configuraciones</item>
@@ -21,10 +19,7 @@
     <string name="notification_permission_need_title">Habilitar permiso para protección</string>
     <string name="notification_permission_need_description">Habilite sus permisos para usar el bloqueador de aplicaciones.</string>
 
-    <string name="you_accept_privacy_policy">Al continuar, usted acepta         <u>Privacy Policy</u>
-    </string>
 
-    
     <string name="header_recommended_to_lock">Recomendado para bloquear</string>
     <string name="header_all_apps">Todas las aplicaciones</string>
 
@@ -83,11 +78,6 @@
     <string name="dialog_description_usage_permission">En Android 5.0 o superior, debe permitir el acceso de uso para         AppLocker, para que pueda usar la función SecureBox     </string>
     <string name="dialog_action_usage_permission_permit">Permiso</string>
     <string name="dialog_action_usage_permission_cancel">Cancelar</string>
-
-    <string name="dialog_title_privacy_policy">Política de privacidad</string>
-    <string name="dialog_description_privacy_policy">Hemos actualizado nuestra política de privacidad. Al continuar, usted acepta         <u>Privacy Policy</u>
-    </string>
-    <string name="dialog_action_privacy_policy_accept">Aceptar</string>
 
     <string name="title_main_background">Tema</string>
 
